@@ -1,0 +1,126 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7aaaa;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.login,
+.signUp {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.login input,
+.signUp input {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  height: 30px;
+  background-color: #ffe6e6;
+  color: #333; 
+  font-size: 24px;
+}
+
+.login button,
+.signUp button {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 320px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #ff4d4d;
+  color: white; 
+}
+
+.login button:hover,
+.signUp button:hover {
+  background-color: #e60000;
+}
+
+.login label,
+.signUp label {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  color: white; 
+}
+
+.board {
+  width: 700px;
+  height: 700px; 
+  background-color: #ffe6e6; 
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+}
+
+.square {
+  flex: 33%;
+  height: 100%;
+  border: 1px solid black;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 40px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f3f3;
+}
+
+.square:hover {
+  background-color: #f13232;
+}
+
+.square:active {
+  background-color: #ff6666; 
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white; 
+  font-size: 36px;
+}
+
+.joinGame input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 220px;
+  height: 30px;
+  background-color: #ffe6e6;
+  color: #333; 
+}
+
+.joinGame button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 220px;
+  height: 51px;
+  cursor: pointer;
+  background-color: #ff4d4d; 
+  color: white;
+}
+
+.joinGame button:hover {
+  background-color: #e60000;
+}
